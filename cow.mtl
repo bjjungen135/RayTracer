@@ -1,0 +1,13 @@
+# Blender MTL File: 'cow.blend'
+# Material Count: 1
+
+newmtl FrontColor
+Ns 96.0
+Ka 0.100000 0.100000 0.100000
+Kd 0.30000 0.30000 0.30000
+Ks 0.330000 0.330000 0.330000
+Ke 0.000000 0.000000 0.000000
+Tr 1.0 1.0 1.0
+Ni 2.00000
+d 1.000000
+illum 6

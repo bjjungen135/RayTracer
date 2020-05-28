@@ -1,0 +1,20 @@
+montecarlo
+samples 500
+recursionlevel 50
+eye -4 0.25 0
+look 1 0 0
+up 0 1 0
+bounds -4 4 -4 4
+d -4
+res 512 512
+#sphere x y z radius ambientR ambientG ambientB 0 0 0 0 0 0 0 0 0 materialIndicator
+#materialIndicator: 0 = Light 1 = Lambertian 2 = Mirror 3 = Refraction
+sphere 0 604.997 0 600 3.0 3.0 3.0 0 0 0 0 0 0 0 0 0 0
+sphere 10000000005 0 0 10000000000 0.9 0.9 0.9 0 0 0 0 0 0 0 0 0 1
+sphere 0 10000000005 0 10000000000 0.9 0.9 0.9 0 0 0 0 0 0 0 0 0 1
+sphere 0 -10000000005 0 10000000000 0.9 0.9 0.9 0 0 0 0 0 0 0 0 0 1
+sphere 0 0 -10000000005 10000000000 0.3 0.9 0.3 0 0 0 0 0 0 0 0 0 1
+sphere 0 0 10000000005 10000000000 0.9 0.3 0.3 0 0 0 0 0 0 0 0 0 1
+sphere 3 -3.75 -2.25 1.25 0.9 0.9 0.9 0 0 0 0 0 0 0 0 0 2
+sphere 2.5 -3.75 2.25 1.25 0.3 0.3 0.9 0 0 0 0 0 0 0 0 0 1
+sphere 1.5 -3.75 0 1.25 0.9 0.9 0.9 0 0 0 0 0 0 0 0 0 3
